@@ -144,8 +144,104 @@
                    <h5 class="text-center">Arrastra tu imágen o cargala desde el botón</h5>
                    <hr>
                    <form action="" method="POST">
-                       <input type="file" name="archivo">
-                       <input type="submit" class="btn btn-primary" value="Cargar">
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 1 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 2 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 3 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 4 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 5 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 6 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 7 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 8 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 9 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 10 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 11 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 12 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 13 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 14 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 15 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 16 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 17 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 18 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 19 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 20 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 21 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 22 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 23 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 24 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 25 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 26 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 27 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 28 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 29 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 30 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 31 day"));?></label>
+                       <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
+                       <br>
+                       <hr>
+                       <input type="submit" class="btn btn-primary" value="Cargar" class="btn btn-primary">
                    </form>
 
                 </div>
