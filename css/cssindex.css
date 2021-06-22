@@ -1,0 +1,15 @@
+:root{
+    --base: #ecf0f1 ;
+    --color1:  #8ad2e6  ;
+    --color2:  #173686  ; 
+}
+.letras{
+    background-color: var(--color2);
+    color: white;
+    text-align: left;
+}
+.empresa{
+    background-color: var(--color2);
+    color: white;
+    text-align: right;
+}

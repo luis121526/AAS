@@ -6,6 +6,7 @@
 .body{
     font-family: 'Ubuntu', sans-serif;
 }
+
 .cabeza{
     background-color: var(--color2);
     padding: 10px;
@@ -30,11 +31,7 @@
 .pie p{
     color: var(--color1);
 }
-.headr{
-    background-color: var(--color2);
-    color: var(--color1);
-    margin: 0px auto;
-}
+
 .userdata{
     text-align: right;
 }
