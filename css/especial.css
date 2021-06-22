@@ -1,0 +1,93 @@
+:root{
+    --base: #ecf0f1 ;
+    --color1:  #8ad2e6  ;
+    --color2:  #173686  ; 
+}
+.body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.cabeza{
+    background-color: var(--color2);
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto 0px auto;
+}
+.cabeza h1{
+    color: var(--color1);
+}
+.menu1{
+    background-color: var(--base);
+    text-align: center;
+    margin: 70px auto 0px auto;
+    font-size: 20px;
+}
+.pie{
+    background-color: var(--color2);
+    padding: 5px;
+    margin: 100px auto auto auto;
+    font-size: 12px;
+}
+.pie p{
+    color: var(--color1);
+}
+.headr{
+    background-color: var(--color2);
+    color: var(--color1);
+    margin: 0px auto;
+}
+.userdata{
+    text-align: right;
+}
+.cs{
+    text-align: right;
+}
+.menub{
+    background-color: var(--base);
+}
+.barralat{
+    background-color: var(--color2); 
+    margin: 0px auto; 
+}
+.prin{
+    margin:0px 600px auto -79px; 
+}
+.vista{
+    padding: 20px;
+    text-align: left;
+}
+.imgs{
+    text-align: right;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+    image-rendering: pixelated;
+      filter: drop-shadow(0 0 5px gray);
+
+
+}
+.des{
+    margin: 50px auto;
+}
+.texto{
+    text-align: center;
+    background-color: var(--color2);
+    color:var(--color1);
+    border-radius: 5px;
+    padding: 10px;
+}
+.anotacion{
+    text-align: justify;
+    background-color:#f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+}
+.anotacion2{
+    text-align: right;
+    background-color:#f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+
+
