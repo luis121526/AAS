@@ -136,9 +136,9 @@
                 <div class="col-8 anotacion2">
                    <h5 class="text-center">Carga Aquí Tu Archivo</h5>
                    <hr>
-                   <form action="" method="POST">
+                   <form action="../Contenido/cargafs.php" method="POST" enctype="multipart/form-data">
                        <input type="file" name="archivo">
-                       <input type="submit" class="btn btn-info" value="Cargar">
+                       <input type="submit" class="btn btn-info"  name="enviar" value="Cargar">
                    </form>
 
                 </div>
