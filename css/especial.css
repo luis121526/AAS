@@ -85,6 +85,10 @@
     padding: 5px;
 
 }
+.headr{
+    background-color: var(--color2);
+    color: var(--color1);
+}
 
 
 

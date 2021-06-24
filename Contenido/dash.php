@@ -39,7 +39,7 @@
             </span></h4>
         </div>
         <div class=" cs col-2">
-            <button class="btn btn-info">Ver Gaceta
+            <button class="btn btn-info btn-sm">Ver Gaceta
                 <span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -50,7 +50,7 @@
             </button>
         </div>
         <div class=" cs col-2">
-            <button class="btn btn-danger">Cerrar Sesion
+            <button class="btn btn-danger btn-sm">Cerrar Sesion
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
