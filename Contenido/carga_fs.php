@@ -118,7 +118,7 @@
                     <h5>Imagen Actual</h5>
                 </div>
                 <div class="col-8">
-                    <img src="../img/fs.jpg" alt="imagen" title="fs" class="imgs">
+                    <img src="../Contenido/fs.jpg" alt="imagen" title="fs" class="imgs">
                 </div>
             </div>
             <div class="w-100"></div>

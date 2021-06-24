@@ -137,7 +137,7 @@
                 <h5>Frase De La Semana</h5>
             </div>
             <div class="col-6">
-                <img src="../img/fs.jpg" alt="" class="imgs" title="fsem">
+                <img src="../Contenido/fs.jpg" alt="" class="imgs" title="fsem">
             </div>
             </div>
             <hr>
@@ -147,7 +147,7 @@
                 <h5>Frase Del Mes</h5>
             </div>
             <div class="col-6">
-                <img src="../img/fm.jpg" alt="" class="imgs" title="fmes">
+                <img src="../Contenido/fm.jpg" alt="" class="imgs" title="fmes">
             </div>
             </div>
             <hr>

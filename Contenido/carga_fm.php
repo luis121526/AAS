@@ -118,7 +118,7 @@
                     <h5>Imagen Actual</h5>
                 </div>
                 <div class="col-8">
-                    <img src="../img/fs.jpg" alt="imagen" title="fs" class="imgs">
+                    <img src="../Contenido/fm.jpg" alt="imagen" title="fs" class="imgs">
                 </div>
             </div>
             <div class="w-100"></div>
@@ -136,9 +136,9 @@
                 <div class="col-8 anotacion2">
                    <h5 class="text-center">Carga Aquí Tu Archivo</h5>
                    <hr>
-                   <form action="" method="POST">
+                   <form action="../Contenido/cargafm.php" method="POST" enctype="multipart/form-data">
                        <input type="file" name="archivo">
-                       <input type="submit" class="btn btn-info" value="Cargar">
+                       <input type="submit" class="btn btn-info" name="enviar" value="Cargar">
                    </form>
 
                 </div>
