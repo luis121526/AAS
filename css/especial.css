@@ -86,8 +86,9 @@
 
 }
 .headr{
-    background-color: white;
+    background-color: var(--color2);
     color: black;
+    margin: auto auto auto auto;
     
 }
 
