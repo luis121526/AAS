@@ -165,7 +165,7 @@
 
         </div>
         <div class="col-3 cs">
-        <button class="btn btn-primary">Cerrar Sesion</button>
+        <button class="btn btn-primary"onclick="location.href='../Contenido/cerrarsesion.php'" >Cerrar Sesion</button>
         </div>
     </div>
     
