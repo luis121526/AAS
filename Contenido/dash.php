@@ -19,22 +19,20 @@
 <header class="headr row container-fluid">
         <div class="col-3">
             <h4>Gaceta <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <line x1="12" y1="8" x2="8" y2="12" />
-                <line x1="12" y1="8" x2="12" y2="16" />
-                <line x1="16" y1="12" x2="12" y2="8" />
+                <circle cx="12" cy="13" r="2" />
+                <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
+                <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
                 </svg>
             </span></h4>
         </div>
         <div class="userdata col-5">
             <h4>Usuario <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-check" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="9" cy="7" r="4" />
-                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                <path d="M16 11l2 2l4 -4" />
+                <circle cx="12" cy="7" r="4" />
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
                 </svg>
             </span></h4>
         </div>
@@ -137,7 +135,7 @@
                 <h5>Frase De La Semana</h5>
             </div>
             <div class="col-6">
-                <img src="../Contenido/fs.jpg" alt="" class="imgs" title="fsem">
+                <img src="../Contenido/fs.jpg" alt="FraseSemanal" class="imgs" title="fsem">
             </div>
             </div>
             <hr>
@@ -147,7 +145,7 @@
                 <h5>Frase Del Mes</h5>
             </div>
             <div class="col-6">
-                <img src="../Contenido/fm.jpg" alt="" class="imgs" title="fmes">
+                <img src="../Contenido/fm.jpg" alt="FraseMensual" class="imgs" title="fmes">
             </div>
             </div>
             <hr>
@@ -281,7 +279,7 @@
 
         </div>
         <div class="col-3 cs">
-        <button class="btn btn-danger">Cerrar Sesion</button>
+        <button class="btn btn-primary">Cerrar Sesion</button>
         </div>
     </div>
     

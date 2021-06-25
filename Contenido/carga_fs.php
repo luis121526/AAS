@@ -19,34 +19,51 @@
 <header class="headr row container-fluid">
         <div class="col-3">
             <h4>Gaceta <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dashboard" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="12" cy="12" r="9" />
-                <line x1="12" y1="8" x2="8" y2="12" />
-                <line x1="12" y1="8" x2="12" y2="16" />
-                <line x1="16" y1="12" x2="12" y2="8" />
+                <circle cx="12" cy="13" r="2" />
+                <line x1="13.45" y1="11.55" x2="15.5" y2="9.5" />
+                <path d="M6.4 20a9 9 0 1 1 11.2 0z" />
                 </svg>
             </span></h4>
         </div>
-        <div class="userdata col-7">
+        <div class="userdata col-5">
             <h4>Usuario <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-check" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <circle cx="9" cy="7" r="4" />
-                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-                <path d="M16 11l2 2l4 -4" />
+                <circle cx="12" cy="7" r="4" />
+                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
                 </svg>
             </span></h4>
         </div>
         <div class=" cs col-2">
-            <button class="btn btn-danger">Cerrar Sesion</button>
+            <button class="btn btn-primary btn-sm">Ver Gaceta
+                <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                </svg>
+                </span>
+            </button>
+        </div>
+        <div class=" cs col-2">
+            <button class="btn btn-primary btn-sm">Cerrar Sesion
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
+                <path d="M7 12h14l-3 -3m0 6l3 -3" />
+                </svg>
+            </span>
+            </button>
         </div>
     </header>
 <body>
       <section class="row container-fluid prin ">
             <div class="col-2 barralat">
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/dash.php'"> <span>
+            <button class="btn btn-primary" onclick="location.href='../Contenido/dash.php'"> <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aspect-ratio" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -55,7 +72,7 @@
             </svg>
             </span>Panel Principal </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fs.php'"> <span>
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fs.php'"> <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aspect-ratio" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -64,7 +81,7 @@
             </svg>
             </span> Frase Semanal </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fm.php'">
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fm.php'">
             <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-screen-share" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -79,7 +96,7 @@
             Frase Mensual
             </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fd.php'">
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fd.php'">
             <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
