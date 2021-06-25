@@ -124,17 +124,8 @@
             <div class="w-100"></div>
             <hr>
             <div class="row container-fluid">
-                <div class="col-4 anotacion">
-                <h5>Atención</h5>
-                <hr>
-                       <p>Cargar unicamente imagen en formato .jpg
-                            y con el nombre siguiente: fm 
-                            <br>
-                            Ejemplo : fm.jpg
-                       </p>
-                </div>
-                <div class="col-8 anotacion2">
-                   <h5 class="text-center">Carga Aquí Tu Archivo</h5>
+                <div class="col anotacion2">
+                   <h5 class="text-center">Arrastra tu imágen o cargala desde el botón</h5>
                    <hr>
                    <form action="../Contenido/cargafm.php" method="POST" enctype="multipart/form-data">
                        <input type="file" name="archivo">
