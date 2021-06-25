@@ -267,7 +267,6 @@
                     
             </div>
             </div>
-            <hr>
             </div>
       </section>
       
