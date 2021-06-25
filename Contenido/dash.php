@@ -39,7 +39,7 @@
             </span></h4>
         </div>
         <div class=" cs col-2">
-            <button class="btn btn-info btn-sm">Ver Gaceta
+            <button class="btn btn-primary btn-sm">Ver Gaceta
                 <span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -50,7 +50,7 @@
             </button>
         </div>
         <div class=" cs col-2">
-            <button class="btn btn-danger btn-sm">Cerrar Sesion
+            <button class="btn btn-primary btn-sm">Cerrar Sesion
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-logout" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -65,7 +65,7 @@
       <section class="row container-fluid prin ">
             <div class="col-2 barralat">
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/dash.php'"> <span>
+            <button class="btn btn-primary" onclick="location.href='../Contenido/dash.php'"> <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aspect-ratio" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -74,7 +74,7 @@
             </svg>
             </span>Panel Principal </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fs.php'"> <span>
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fs.php'"> <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aspect-ratio" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <rect x="3" y="5" width="18" height="14" rx="2" />
@@ -83,7 +83,7 @@
             </svg>
             </span> Frase Semanal </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fm.php'">
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fm.php'">
             <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-screen-share" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -98,7 +98,7 @@
             Frase Mensual
             </button>
             <hr>
-            <button class="btn btn-info" onclick="location.href='../Contenido/carga_fd.php'">
+            <button class="btn btn-primary" onclick="location.href='../Contenido/carga_fd.php'">
             <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

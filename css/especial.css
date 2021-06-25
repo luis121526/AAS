@@ -1,7 +1,7 @@
 :root{
     --base: #ecf0f1 ;
-    --color1:  #8ad2e6  ;
-    --color2:  #173686  ; 
+    --color1:  white ;
+    --color2:    #aeb6bf  ; 
 }
 .body{
     font-family: 'Ubuntu', sans-serif;
@@ -86,8 +86,9 @@
 
 }
 .headr{
-    background-color: var(--color2);
-    color: var(--color1);
+    background-color: white;
+    color: black;
+    
 }
 
 
