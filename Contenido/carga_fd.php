@@ -207,6 +207,7 @@
                        <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 20 day"));?></label>
                        <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
                        <br>
+                       <!--dsdasd-->
                        <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2."+ 21 day"));?></label>
                        <input type="file" name="archivo" src="../Contenido/fs.jpg" class="btn btn-primary">
                        <br>
