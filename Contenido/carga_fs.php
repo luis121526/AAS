@@ -144,7 +144,8 @@
                    <h5 class="text-center">Arrastra tu imágen o cargala desde el botón</h5>
                    <hr>
                    <form action="../Contenido/cargafs.php" method="POST" enctype="multipart/form-data">
-                       <input type="file" name="archivo">
+                       <input type="file" name="archivo" class="btn btn-primary">
+                       <hr>
                        <input type="submit" class="btn btn-primary"  name="enviar" value="Cargar">
                    </form>
 
