@@ -124,7 +124,6 @@
             <br>
             <br>
             <br>
-            <hr>
             </div>
             <div class="col-9 vista">    
             <h3 class="texto">Contenido Actual: <span><?php echo $date2  ?></span></h3>
