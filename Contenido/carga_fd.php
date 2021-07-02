@@ -131,7 +131,7 @@
             <hr>
             <div class="row container-fluid">
                 <div class="col-4">
-                    <h5>Imágen del día <?php echo date("d-m-Y")  ?></h5>
+                    <h5>Imágen del día <?php echo date("d-m-Y")   ?></h5>
                 </div>
                 <div class="col">
                     <img src="../img/fs.jpg" alt="imagen" title="fs" class="imgs">
