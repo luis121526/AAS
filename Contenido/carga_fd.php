@@ -128,20 +128,11 @@
             <div class="col-9 vista">    
             <h3 class="texto">Cargar Frase Diaria</h3>
             
-            <hr>
-            <div class="row container-fluid">
-                <div class="col-4">
-                    <h5>Imágen del día <?php echo date("d-m-Y")   ?></h5>
-                </div>
-                <div class="col">
-                    <img src="../img/fs.jpg" alt="imagen" title="fs" class="imgs">
-                </div>
-            </div>
-            <div class="w-100"></div>
-            <hr>
+           
+            
             <div class="row container-fluid">
                 <div class="col anotacion2">
-                   <h5 class="text-center">Arrastra tu imágen o cargala desde el botón</h5>
+                   <h5 class="text-center">Carga tus imágenes de acuerdo a su fecha de pulicación</h5>
                    <hr>
                    <form action="../Contenido/cargafd.php" method="POST" enctype="multipart/form-data">
                        <label for="fecha1"><?php echo 'Imágen para día '.date("d-m-Y",strtotime($date2));?></label>
